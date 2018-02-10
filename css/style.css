@@ -36,7 +36,7 @@ body {
 }
 
 p {
-	color: #767878;
+	color: #333838;
 	line-height: 1.8em;
 }
 
@@ -421,7 +421,7 @@ a:hover, a:focus {
 	background-color: rgba(94, 154, 142, 0.1);
 	font-size: 46px;
 	font-size: 2.55556rem;
-	color: #848383;
+	color: #4b7c72;
 	margin: 59px 0 0;
 	padding: 10px 25px 5px;
 	border-top: 2px solid rgba(94, 154, 142, 0.1);
@@ -3084,7 +3084,7 @@ opacity
 	font-size: 20px;
 	font-size: 1.11111rem;
 	font-weight: 600;
-	color: #3e3e3e;
+	color: #5d998e;
 	margin: 0 0 0.9em;
 	text-transform: uppercase;
 }
@@ -3103,7 +3103,7 @@ opacity
 .events-section .event ul li {
 	font-size: 16px;
 	font-size: 0.88889rem;
-	color: #a9a9a9;
+	color: #332f2f;
 	position: relative;
 	padding-left: 22px;
 }
@@ -4505,7 +4505,6 @@ opacity
 
 .google_calendar_link a:hover {
 	color: black;
-	text-decoration: underline;
 }
 
 /*--------------------------------------------------------------
@@ -4523,6 +4522,14 @@ opacity
 .google_map_location:hover {
 	text-decoration: underline;
 	color: black;
+}
+
+.social-links-section-container {
+	align: center;
+}
+
+.map_icon_pos {
+	margin-top: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */

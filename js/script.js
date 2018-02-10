@@ -527,23 +527,20 @@
     /*------------------------------------------
         = RSVP FORM SUBMISSION
     -------------------------------------------*/  
-    if ($("#rsvp-form").length) {
-        $("#rsvp-form").validate({
+    if ($("#gform").length) {
+        $("#gform").validate({
             rules: {
                 name: {
                     required: true,
                     minlength: 2
                 },
-                email: "required",
-                
+                email: "required",                
                 guest: {
                     required: true
-                },
-                
+                },                
                 events: {
                     required: true
                 }
-
             },
 
             messages: {
@@ -557,7 +554,7 @@
                 $("#loader").css("display", "inline-block");
                 $.ajax({
                     type: "POST",
-                    url: "mail.php",
+                    url: "https://script.google.com/macros/s/AKfycbwCchTFYyrYki1BRQKlw1v5JELJ_UJBRzuE0q1s2ELhmbSRgew/exec",
                     data: $(form).serialize(),
                     success: function () {
                         $( "#loader").hide();
